@@ -45,7 +45,7 @@ export default function HomeSearch() {
     awqaf.slice(0,4).map((waqf)=> 
 
     <div key={waqf.id} className="col-md-3">
-        <div className="search-cards">
+        <div className="search-cards cardsHover bg-white border-1 shadow ">
           <img src={"http://afdinc-001-site5.itempurl.com" + waqf.imageUrl} className='w-100' alt="" />
           <div className="card-border">
             <h3 className='py-3 h6'>{waqf.waqfName}</h3>

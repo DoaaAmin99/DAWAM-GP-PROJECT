@@ -1,6 +1,6 @@
 import React from 'react'
 import  './AboutPage.css';
-import banner from "../../Assests/Images/banner-bgup.png";
+import waqfd from "../../Assests/Images/mosquegrapherr.jpg";
 export default function AboutPage() {
   return <>
   <a href="#about" id="btnUp" className="btn rounded-circle text-white">
@@ -8,77 +8,22 @@ export default function AboutPage() {
   </a>
           {/* --------------------------About Header ------------------------------ */}
       <header id="about" className="py-5">
-        <div className="overlay d-flex flex-column justify-content-center p-5">
-          <h1 className="title mt-5">عن دوام </h1>
-          <p className="text">
-            {" "}
-            هو وسيلة لحفظ الأوقاف الموثقة بشكل غير قابل للتغيير أو التلف عبر
-            مرور العصور بصورة لامركزية باستخدام تقنية البلوكتشين
-          </p>
-        </div>
-      </header>
-      {/* --------------------------About Awqaf history------------------------------ */}
-      <section className="wqf-history py-5  ">
-        <div className="container">
-          <div className="text-center">
-            <h2 className="heading"> عن الأوقاف</h2>
-            <p>
-              عبر العهود الإسلامية أنشأت أوقاف خلدها التاريخ حققت مقاصدها عبر
+        <div className="overlay d-flex flex-column m-auto justify-content-center  p-5">
+          <div className="container">
+            <h1 className="title mt-5"><span>عن دوام</span> </h1>
+          <p className=" text ">
+          عبر العهود الإسلامية أنشأت أوقاف خلدها التاريخ حققت مقاصدها عبر
               العصور وما خطه الرحالة وكاتبي السير أرشدنا إلى روائع لم تكن
               بالحسبان ففي أوج حضارتنا خصص وقف لكل حاجة ومطلب وكان لنا وراء كل
               وقف قصة يدلنا عليها الواقف والدافع والجهة الموقوف .عليها والوقف
               ووثيقة الوقف وغيره .
-            </p>
+            
+          </p>
           </div>
-          <div className="row g-1 my-5">
-            <div className="col-sm-12 col-md-6 offset-1">
-              <div>
-                
-                  <h4 className="heading">فالوقف هو:</h4>
-                  <p>
-                  هو حبس الأصل، وتسبيل المنفعة فالعين الموقوفة تخرج من سوق
-                  المعاملات وشرط الأصل أن يكون مما يمكن الانتفاع به .
-                </p>
-              </div>
-              <div>
-                <h4 className="heading">أنواع الوقف</h4>
-                <ul className="p-0">
-                  <li>
-                    <span className="fw-bold">وقف خيري:</span>يكون ريعه مخصصاً
-                    للإنفاق على وجوه البر الخاصة والعامة
-                  </li>
-                  <li>
-                    <span className="fw-bold">وقف أهلي:</span>
-                    :يكون ريعه مخصصاً للإنفاق على ذرية الواقف ونسله من بعده إلى
-                    حين انقراضهم فيؤول إلى الخيرات وجهات البر
-                  </li>
-                  <li>
-                    <span className="fw-bold">وقف مختلط:</span>
-                    :وهو مزيج بين الخيري والأهلي وكان الأغلب في مصر
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="heading">هيئه الأوقاف</h4>
-                <p>
-                  نشأة هيئة الأوقاف المصرية بتاريخ 10 أكتوبر 1971 صدر القرار
-                  الجمهوري رقم 80 لسنة 1971 بإنشاء هيئة للأوقاف، هيئة ذات شخصية
-                  اعتبارية وتتبع وزير الأوقاف تقوم بإدارة واستثمار أموال الأوقاف
-                  نيابة عن الوزير وتنفيذا لهذا القانون فقد أصبحت هيئة الأوقاف
-                  المصرية منوط بها استلام وإدارة واستثمار أموال وإيرادات وأعيان
-                  الأوقاف الخيرية والحفاظ عليها.
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-5">
-              <div>
-                <img src={banner} className="img-fluid rounded" alt="" />
-              </div>
-            </div>
-          </div>
-          <hr />
+          
         </div>
-      </section>
+      </header>
+      
       {/* --------------------------About Blockchain Key elements----------------------------- */}
       <section className="platform-Technology py-5">
         <div className="container">
@@ -269,6 +214,68 @@ export default function AboutPage() {
                     العقد الذكي - على البلوكتشين وتنفيذها تلقائيًا.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </section>
+      {/* --------------------------About Awqaf history------------------------------ */}
+      <section className="wqf-history py-5  ">
+        <div className="container">
+          <div className="text-center p-4">
+            <h2 className="heading"> عن الأوقاف</h2>
+            <p >
+              عبر العهود الإسلامية أنشأت أوقاف خلدها التاريخ حققت مقاصدها عبر
+              العصور وما خطه الرحالة وكاتبي السير أرشدنا إلى روائع لم تكن
+              بالحسبان ففي أوج حضارتنا خصص وقف لكل حاجة ومطلب وكان لنا وراء كل
+              وقف قصة يدلنا عليها الواقف والدافع والجهة الموقوف .عليها والوقف
+              ووثيقة الوقف وغيره .
+            </p>
+          </div>
+          <div className="row g-1 my-5">
+            <div className="col-sm-12 col-md-6 offset-1">
+              <div>
+                
+                  <h4 className="heading">فالوقف هو:</h4>
+                  <p>
+                  هو حبس الأصل، وتسبيل المنفعة فالعين الموقوفة تخرج من سوق
+                  المعاملات وشرط الأصل أن يكون مما يمكن الانتفاع به .
+                </p>
+              </div>
+              <div>
+                <h4 className="heading">أنواع الوقف</h4>
+                <ul className="p-0">
+                  <li>
+                    <span className="fw-bold">وقف خيري:</span>يكون ريعه مخصصاً
+                    للإنفاق على وجوه البر الخاصة والعامة
+                  </li>
+                  <li>
+                    <span className="fw-bold">وقف أهلي:</span>
+                    :يكون ريعه مخصصاً للإنفاق على ذرية الواقف ونسله من بعده إلى
+                    حين انقراضهم فيؤول إلى الخيرات وجهات البر
+                  </li>
+                  <li>
+                    <span className="fw-bold">وقف مختلط:</span>
+                    :وهو مزيج بين الخيري والأهلي وكان الأغلب في مصر
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="heading">هيئه الأوقاف</h4>
+                <p>
+                  نشأة هيئة الأوقاف المصرية بتاريخ 10 أكتوبر 1971 صدر القرار
+                  الجمهوري رقم 80 لسنة 1971 بإنشاء هيئة للأوقاف، هيئة ذات شخصية
+                  اعتبارية وتتبع وزير الأوقاف تقوم بإدارة واستثمار أموال الأوقاف
+                  نيابة عن الوزير وتنفيذا لهذا القانون فقد أصبحت هيئة الأوقاف
+                  المصرية منوط بها استلام وإدارة واستثمار أموال وإيرادات وأعيان
+                  الأوقاف الخيرية والحفاظ عليها.
+                </p>
+              </div>
+            </div>
+            <div className="col-sm-12 col-md-5">
+              <div>
+                <img src={waqfd } className="img-fluid rounded" alt="" />
               </div>
             </div>
           </div>

@@ -21,8 +21,8 @@ export default function Home() {
             
             <div className='container '>
               <h1 className='title'>دوام</h1>
-              <p className='text'>
-              {" "}
+              <p className='text w-50' >
+              
                 منصة لحفظ الحجج الوقفية باستخدام تقنية البلوكتشين ضد تغير الظروف والأعوام
                 </p>
             </div>

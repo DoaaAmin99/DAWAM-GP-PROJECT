@@ -15,9 +15,11 @@
     background-color: rgb(0, 91, 75 ,0.501961); 
     z-index: 99;
 }
-.text{
+.text-home{
     width: 53%;
      padding-right: 1rem;
+     color: var(--white-color);
+  font-size: 2rem;
 }
 #btnUp
 {

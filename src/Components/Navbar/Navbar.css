@@ -1,6 +1,5 @@
 .navbar-brand{
-    width: 10%;
-    height: 5.7rem;
+    width: 8%;
 
 }
 .nav-link {
@@ -14,13 +13,14 @@
     color: var(--gold-color);
 }
 
-/* .navbar{
-    position: relative;
+.navbar{
+    position: absolute;
     z-index: 1000;
+    top: 0;
     --bs-navbar-padding-y: 0
     --bs-navbar-brand-margin    --bs-navbar-brand-padding-y:0;
 -end: 0;
-} */
+}
 /* .navbar{
     position: absolute !important;
     z-index: 100000;

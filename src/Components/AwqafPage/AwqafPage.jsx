@@ -28,7 +28,7 @@ export default function AwqafPage() {
     <i className="fas fa-arrow-up"></i>
   </a>
         <div className="container awqaf  py-5 my-5" id='awqaf'>
-        <h2 className="search-title text-center">الأوقاف</h2>
+        <h2 className="search-title text-center pt-5">الأوقاف</h2>
           <div className="row">
           {loading === true ?  <section id="loading">
         <div className="sk-circle">
@@ -46,7 +46,7 @@ export default function AwqafPage() {
             <div className="sk-circle12 sk-child"></div>
         </div>
     </section> : awqaf.map((waqf)=> <div key={waqf.id} className="col-md-12">
-              <div className="row awqf-cards my-5 bg-white border-1 shadow rounded-5">
+              <div className="row awqf-cards cardsHover my-5 bg-white border-1 shadow rounded-5">
                 <div className="col-md-3 offset-1">
                 <img src={"http://afdinc-001-site5.itempurl.com"+waqf.imageUrl} className='w-100 ' alt=""/>
                 </div>
