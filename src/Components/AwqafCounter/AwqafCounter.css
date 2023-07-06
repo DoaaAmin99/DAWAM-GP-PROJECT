@@ -1,0 +1,49 @@
+#counter{
+    background-image: url("../../Assests/Images/counter-image.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+    position: relative;
+}
+
+.counter-items{
+    border: 2px solid var( --gold-color);
+    border-radius: 10px;
+}
+.count-num{
+    color:var( --gold-color);
+}
+.counter-p{
+    font-size: 1.7rem;
+}
+
+
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    .counter-image{
+        height:95vh  ;
+    }
+    .counter-p{
+        font-size: 1rem;
+    }
+    .counter-items{
+        padding: .2rem 0;
+        margin: 0.2rem;
+    }
+   
+    
+   
+  }
+  @media screen and (max-width: 600px){
+    .counter-image{
+        height:95vh  ;
+    }
+    .counter-p{
+        font-size: 1rem;
+    }
+    .counter-items{
+        padding: .2rem 0;
+        margin: 0.2rem;
+    }
+  
+  }

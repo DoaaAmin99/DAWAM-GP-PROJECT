@@ -1,0 +1,31 @@
+.card-border{
+    border: 1px solid  var( --whitesmoke-color);
+    padding:0 1rem 2rem 1rem;
+    
+}
+.card-border h3{
+    font-weight: bold;
+    color: var(--green-color);
+}
+.search-cards img{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.desc-search{
+    text-align: justify;
+    font-size: 1rem;
+}
+.search-cards .btn 
+{
+    transition: transform 1s ,background-color 1s, opacity 1s !important;
+    transform: translateY(100%);
+    opacity: 0;
+}
+.search-cards:hover .btn 
+{
+    opacity: 1;
+    transform: translateY(0%);
+    
+
+}

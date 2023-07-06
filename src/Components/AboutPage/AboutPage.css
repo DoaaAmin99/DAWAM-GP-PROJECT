@@ -1,0 +1,21 @@
+.heading, .techIcons{
+    color: var(--gold-color);
+}
+
+
+
+#about{
+    background-image: url("../../Assests/Images/About-header.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+.tech-items{
+    transition: all .5s !important;
+}
+.tech-items:hover{
+    transform: scale(1.1);
+}

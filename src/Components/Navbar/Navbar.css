@@ -1,0 +1,32 @@
+.navbar-brand{
+    width: 10%;
+    height: 5.7rem;
+
+}
+.nav-link {
+    color:var(--white-color);
+    margin-right: 2rem;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .nav-link.active {
+    color: var(--gold-color);
+}
+.nav-link:hover {
+    color: var(--gold-color);
+}
+
+/* .navbar{
+    position: relative;
+    z-index: 1000;
+    --bs-navbar-padding-y: 0
+    --bs-navbar-brand-margin    --bs-navbar-brand-padding-y:0;
+-end: 0;
+} */
+/* .navbar{
+    position: absolute !important;
+    z-index: 100000;
+} */
+@media (max-width:767px) {
+    .navbar{
+        background-color: var(--green-color);
+    }
+}
