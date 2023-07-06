@@ -45,7 +45,7 @@ export default function WaqfDetails() {
             <div className="sk-circle12 sk-child"></div>
         </div>
     </section> : <>
-           <h2 className="text-center mb-5 waqf-name-header">{waqfDetails?.waqfName}</h2>
+           <h2 className="text-center mb-5 waqf-name-header pt-5 my-5">{waqfDetails?.waqfName}</h2>
            <div className="col-md-8">
              <ul>
                <li className="pb-2 fs-5">
