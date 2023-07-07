@@ -1,0 +1,36 @@
+
+.form-style{
+    background-color: var(--grayTwo-color);
+    padding: 3rem 2.5rem;
+    border-radius: 10px;
+}
+.contact-input{
+    margin-bottom: 1rem;
+}
+.form-style textarea{
+    padding-bottom:4rem ;
+    margin-bottom: 2rem;
+
+}
+.icon-link{
+    text-decoration: none;
+    color: var(--darkgray-color);
+    
+}
+.icon-link:hover{
+    color: var(--green-color);
+}
+
+ .contact .socialIcon i{
+    color: var(--darkgray-color);
+    
+    padding: 13px 15px;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+    transition: all 1s ;
+}
+.contact .socialIcon i:hover{
+    color: var(--off-white);
+    background-color: var(--green-color);
+    box-shadow: 0 0 0 5px var(--whitesmoke-color);
+}

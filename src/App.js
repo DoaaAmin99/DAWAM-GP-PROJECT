@@ -19,6 +19,7 @@ function App() {
       {path:'about' , element:<AboutPage/>},
       {path:'awqaf' , element:<AwqafPage/>},
       {path:'advancedsearch' , element:<AdvancedSearch/>},
+      {path:'advancedsearch/:searchQuerys' , element:<AdvancedSearch/>},
       {path:'contact' , element:<ContactUs/>},
       {path:'waqfdetails/:id' , element:<WaqfDetails/>},
       {path:'*' , element:<NotFound/>},
