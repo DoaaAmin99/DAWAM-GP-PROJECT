@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import  "./Navbar.css";
-import Logo from '../Logo/Logo';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import logo from '../../Assests/Images/logo.png'
-
-
-
 export default function Navbar() {
   const [navBg , setNavbg] = useState('transpernt');
   const location = useLocation();
@@ -17,15 +13,13 @@ export default function Navbar() {
       setNavbg('#005B4B');
     }
   },[location.pathname])
-
   return <>
-
         <nav className="navbar navbar-expand-lg w-100    " style={{backgroundColor: navBg}}>
             <div className="container">
-            <Link className="navbar-brand" to="/">
-              <img src={logo} className='w-100 '  />
-              {/* <Logo height={'6rem'}/> */}
-            </Link>
+              <Link className="navbar-brand" to="/">
+                <img src={logo} className='w-100 '  />
+                
+              </Link>
             <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -52,7 +46,6 @@ export default function Navbar() {
               </ul>
             </div>
           </div>
-        </nav>
-        
+        </nav> 
     </>
 }

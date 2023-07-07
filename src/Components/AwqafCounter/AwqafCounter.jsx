@@ -21,7 +21,6 @@ export default function AwqafCounter() {
               <p className="text-white  counter-p   ">عدد الأوقاف في العالم   </p>
           </div>
         </div>
-
         <div className="col-md-4 ">
           <div className="counter-items  text-center py-md-3 ">
               <i className="fa-solid fa-earth-africa text-white fs-1 py-sm-1 py-md-2"></i>
@@ -33,7 +32,6 @@ export default function AwqafCounter() {
               <p className="text-white  counter-p   ">عدد الأوقاف في مصر   </p>
           </div>
         </div>
-
         <div className="col-md-4">
           <div className="counter-items  text-center py-md-3 ">
               <i className="fa-solid fa-earth-africa text-white fs-1 py-sm-1 py-md-2"></i>
@@ -45,11 +43,6 @@ export default function AwqafCounter() {
               <p className="text-white  counter-p   ">عدد الأوقاف في دورام   </p>
           </div>
         </div>
-
-
-        
-
-        
       </div>
     </div>
   </div>

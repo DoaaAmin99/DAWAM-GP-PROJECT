@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './AwqafPage.css';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
 export default function AwqafPage() {
   const [awqaf, setAwqaf] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -22,9 +21,8 @@ export default function AwqafPage() {
   useEffect(()=>{
     getWaqf();
   },[])
-
   return <>
-   <a href="#awqaf" id="btnUp" className="btn rounded-circle text-white">
+  <a href="#awqaf" id="btnUp" className="btn rounded-circle text-white">
     <i className="fas fa-arrow-up"></i>
   </a>
         <div className="container awqaf  py-5 my-5" id='awqaf'>

@@ -8,7 +8,6 @@ export default function SearchInputHome() {
   {
     setSearchQuerys('');
   }
-
   return <>
   <div id="search" className="py-5">
   <div className="search-head text-center ">

@@ -8,10 +8,7 @@ import SearchInputHome  from '../SearchInputHome/SearchInputHome';
 export default function Home() {
   return <>
 
-        {/* ============================HEADER==================================== */}
-
-        
-
+  {/* ============================HEADER==================================== */}
   <a href="#header" id="btnUp" className="btn rounded-circle text-white">
     <i className="fas fa-arrow-up"></i>
   </a>
@@ -31,7 +28,6 @@ export default function Home() {
 
     {/* ==========================ABOUT==================================== */}
     <About/>  
-
     <AwqafCounter/>
     <SearchInputHome/>
     <HomeSearchCards/>

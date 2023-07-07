@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 export default function HomeSearch() {
   const [awqaf, setAwqaf] = useState([]);
   const [loading, setLoading] = useState(false);
-
   async function getWaqf()
   {
     setLoading(true);
@@ -18,7 +17,6 @@ export default function HomeSearch() {
 
     setLoading(false);
   }
-
   useEffect(()=>{
     getWaqf();
   },[])
@@ -41,9 +39,7 @@ export default function HomeSearch() {
             <div className="sk-circle12 sk-child"></div>
         </div>
     </section> : 
-
     awqaf.slice(0,4).map((waqf)=> 
-
     <div key={waqf.id} className="col-md-3">
         <div className="search-cards cardsHover bg-white border-1 shadow ">
           <img src={"http://afdinc-001-site5.itempurl.com" + waqf.imageUrl} className='w-100' alt="" />

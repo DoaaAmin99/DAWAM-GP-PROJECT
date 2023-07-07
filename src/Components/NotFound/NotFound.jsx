@@ -1,9 +1,15 @@
 import React from 'react'
-import styles from './NotFound.module.css';
+import './NotFound.css';
 
 export default function NotFound() {
   return <>
 
-        <h2>NotFound</h2>
+        <div id='notFound' className='container py-5 my-5'>
+          <div className='text-center mt-5'>
+          <h2 className='text-danger'> ERROR</h2>
+          <p>NOT FOUND</p>
+          </div>
+          
+           </div>
     </>
 }
