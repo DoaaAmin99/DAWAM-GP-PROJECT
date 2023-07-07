@@ -5,18 +5,21 @@ import { Link, useParams } from 'react-router-dom';
 
 
 export default function AdvancedSearch() {
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
 
-  const search = async () => {
-    const respond = await axios.get(
-      `http://afdinc-001-site5.itempurl.com/api/waqf/Search/${searchQuery}`
-    );
-
-    setSearchResults(respond.data);
-  };
+  
   useEffect(() => {
-    search();
+    const search = async () => {
+      const respond = await axios.get(
+        `http://afdinc-001-site5.itempurl.com/api/waqf/Search/${searchQuery}`
+      );
+  
+      setSearchResults(respond.data);
+    };
+    if(searchQuery){
+      search();
+    }
   }, [searchQuery]);
 
 
@@ -24,9 +27,7 @@ export default function AdvancedSearch() {
 
   const fetchResult=searchResults.map((waqf)=>{
     return<>
-    <div className="container awqaf " id='awqaf'>
-      <div className="row">
-      <div key={waqf.id} className="col-md-12">
+      <div  className="col-md-12" key={waqf.id}>
               <div className="row awqf-cards cardsHover my-5 bg-white border-1 shadow rounded-5">
                 <div className="col-md-3 offset-1">
                 <img src={"http://afdinc-001-site5.itempurl.com"+waqf.imageUrl} className='w-100 ' alt=""/>
@@ -40,9 +41,8 @@ export default function AdvancedSearch() {
                 </div>
               </div>
             </div>
-      </div>
+     
       
-    </div>
     </>
     
   });
@@ -58,7 +58,10 @@ useEffect(() => {
     );
     setSearchResultsPage(response.data);
   };
-  fetchSearchResults();
+  if(searchQuerys){
+     fetchSearchResults();
+  }
+  
 }, [searchQuerys]);
 
 return<>
