@@ -18,7 +18,7 @@ export default function SearchInputHome() {
         
       </Link>
       <input
-            className="form-control input-field m-auto w-50 my-4 rounded-pill "
+            className="form-control input-field  m-auto w-50 my-4 rounded-pill "
             value={searchQuerys}
             onChange={(e) => setSearchQuerys(e.target.value)}
           />
