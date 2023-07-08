@@ -12,13 +12,13 @@ export default function AwqafCounter() {
       <div className="row">
         <div className="col-md-4 ">
           <div className="counter-items  text-center py-md-3 ">
-              <i className="fa-solid fa-globe text-white fs-1 py-sm-1 py-md-2"></i>
+              <i className="fa-solid fa-earth-africa text-white fs-1 py-sm-1 py-md-2"></i>
               <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                 <p className="py-md-2  counter-p count-num">
                   {counterOn && (<CountUp start={0} end={150000} duration={3} delay={0}/>)}+
                 </p>
               </ScrollTrigger>
-              <p className="text-white  counter-p   ">عدد الأوقاف في العالم   </p>
+              <p className="text-white  counter-p   ">عدد الأوقاف في مصر   </p>
           </div>
         </div>
         <div className="col-md-4 ">
@@ -29,7 +29,7 @@ export default function AwqafCounter() {
                   {counterOn && (<CountUp start={0} end={16000} duration={3} delay={0}/>)}+
                 </p>
               </ScrollTrigger>
-              <p className="text-white  counter-p   ">عدد الأوقاف في مصر   </p>
+              <p className="text-white  counter-p   ">عدد الأوقاف التابعة للأزهر   </p>
           </div>
         </div>
         <div className="col-md-4">
@@ -40,7 +40,7 @@ export default function AwqafCounter() {
                   {counterOn && (<CountUp start={0} end={13} duration={3} delay={0}/>)}+
                 </p>
               </ScrollTrigger>
-              <p className="text-white  counter-p   ">عدد الأوقاف في دورام   </p>
+              <p className="text-white  counter-p   ">عدد الأوقاف في دوام   </p>
           </div>
         </div>
       </div>

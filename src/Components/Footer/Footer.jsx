@@ -23,7 +23,7 @@ export default function Footer() {
           <h3 className='title me-4'>
             تصفح
           </h3>
-          <div className="footerBrowse mt-3">
+          <div className="footerBrowse mt-3 ">
             <ul className=' mb-lg-0 p-0 '>
               <li className=''><Link to="/" className=''>الرئيسية</Link></li>
               <li className=''><Link to="about" className=''>من نحن</Link></li>
@@ -43,7 +43,7 @@ export default function Footer() {
           </h3>
           <div className="socialIcon mt-3">
             <ul className=' mb-lg-0  '>
-              <li className='fs-5'> 010022555777 <i className="fa-solid fa-phone"></i></li>
+              <li className='fs-5 '> 010022555777 <i className="fa-solid fa-phone"></i></li>
               <li className='fs-5 '> DAWAM@dawam.org <i className="fa-solid fa-envelope"></i></li>
               
             </ul>

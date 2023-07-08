@@ -37,14 +37,49 @@ footer .row{
     color: var(--gold-color);
 }
 
-  @media screen and (min-width: 601px) and (max-width: 768px) {
-    
+/* @media screen and (min-width: 769px) and (max-width: 991px) {
     .footer-content {
         border-left: none;
         border-right: none;
-            border-top: 3px solid var(--gold-color);
-            border-bottom: 3px solid var(--gold-color) ;
+        border-top: none;
+        border-bottom: 3px solid var(--gold-color) ;
         
+    }
+   
+    
+   
+  } */
+
+  @media screen and (min-width: 601px) and (max-width: 768px) {
+    
+    .footer-content {
+        border-left: 3px solid var(--gold-color);
+        border-right: 3px solid var(--gold-color);
+        border-top: none;
+        border-bottom: none ;
+        
+    }
+    .footerBrowse a{
+        color: var(--white-color);
+        font-size: 1rem;
+        padding: 13px 15px;
+        margin: 0 15px 0 0;
+        text-decoration: none;
+        transition: all 1s ;
+    }
+    footer .socialIcon i{
+        color: var(--white-color);
+        font-size: 1rem;
+        padding: 2px;
+        border-radius: 50%;
+        margin: 0 0px 0 0;
+        
+        transition: all 1s ;
+    }
+
+    footer .socialIcon ul li
+    {
+        font-size: .6rem !important;
     }
     
    
@@ -54,8 +89,8 @@ footer .row{
     .footer-content {
         border-left: none;
         border-right: none;
-            border-top: 3px solid var(--gold-color);
-            border-bottom: 3px solid var(--gold-color) ;
+        border-top: 3px solid var(--gold-color);
+        border-bottom: 3px solid var(--gold-color) ;
         
     }
   
