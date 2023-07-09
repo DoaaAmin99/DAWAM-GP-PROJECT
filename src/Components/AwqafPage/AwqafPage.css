@@ -22,3 +22,7 @@
 .awqf-cards:hover{
     transform: scale(1.1);
 } */
+.awqf-cards img{
+    max-height: 200px ;
+
+}
